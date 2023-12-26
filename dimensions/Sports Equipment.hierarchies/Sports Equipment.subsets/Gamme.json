@@ -1,5 +1,6 @@
 {
 	"@type":"Subset",
 	"Name":"Gamme",
+	"Alias":"MEMBER_NAME",
 	"Expression":"{{[Sports Equipment].[Sports Equipment].Levels(0).MEMBERS}}"
 }
