@@ -1,0 +1,23 @@
+{
+	"@type":"Cube",
+	"Name":"Franchise_Revenue2",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Subsidiaries')"
+		},
+		{
+			"@id":"Dimensions('Years')"
+		},
+		{
+			"@id":"Dimensions('Months')"
+		},
+		{
+			"@id":"Dimensions('Versions')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"Franchise_Revenue2.views/Test HLI.json"
+	]
+}

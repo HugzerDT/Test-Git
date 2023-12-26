@@ -1,0 +1,18 @@
+{
+	"@type":"Cube",
+	"Name":"test",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Versions')"
+		},
+		{
+			"@id":"Dimensions('Products')"
+		},
+		{
+			"@id":"Dimensions('Months')"
+		}
+	],
+	"Rules@Code.link":"test.rules",
+	"Views@Code.links":[]
+}

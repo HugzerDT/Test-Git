@@ -1,0 +1,27 @@
+#region Prolog
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+IF(DimensionExists( 'Expenses') = 1);
+  DimensionDeleteAllElements( 'Expenses');
+ELSE;
+  DIMENSIONCREATE('Expenses');
+ENDIF;
+DIMENSIONSORTORDER('Expenses','BYINPUT','ASCENDING','BYHIERARCHY','ASCENDING');
+#endregion
+#region Metadata
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+DIMENSIONELEMENTINSERT('Expenses','',vExpenses,'n');
+DIMENSIONELEMENTINSERT('Expenses','',vExpenseCategory,'c');
+DIMENSIONELEMENTINSERT('Expenses','',vTotalExpenses,'c');
+DIMENSIONELEMENTCOMPONENTADD('Expenses',vExpenseCategory,vExpenses,1.000000);
+DIMENSIONELEMENTCOMPONENTADD('Expenses',vTotalExpenses,vExpenseCategory,1.000000);
+#endregion
+#region Data
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion

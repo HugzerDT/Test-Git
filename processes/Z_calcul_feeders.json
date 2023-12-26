@@ -1,0 +1,13 @@
+{
+	"@type":"Process",
+	"Name":"Z_calcul_feeders",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"Z_calcul_feeders.ti",
+	"UIData":"_ParameterConstraints=e30=€",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[]
+}

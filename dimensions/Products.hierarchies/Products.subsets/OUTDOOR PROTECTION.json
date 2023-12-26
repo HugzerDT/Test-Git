@@ -1,0 +1,16 @@
+{
+	"@type":"Subset",
+	"Name":"OUTDOOR PROTECTION",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('OUTDOOR PROTECTION')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('Insect Repellents')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('Sunscreen')"
+		}
+	]
+}

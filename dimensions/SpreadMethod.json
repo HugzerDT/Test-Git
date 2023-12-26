@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"SpreadMethod",
+	"Hierarchies@Code.links":
+	[
+		"SpreadMethod.hierarchies/SpreadMethod.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('SpreadMethod')/Hierarchies('SpreadMethod')"
+	}
+}

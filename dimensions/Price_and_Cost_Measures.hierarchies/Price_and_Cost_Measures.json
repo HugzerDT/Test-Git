@@ -1,0 +1,47 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Price_and_Cost_Measures",
+	"Elements":
+	[
+		{
+			"Name":"Unit Cost",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Unit Sale Price",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Margin",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Margin%",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"UnitPrice_hold",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"UnitPrice_count",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"UnitCost_hold",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"UnitCost_count",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Comment",
+			"Type":"String"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Price_and_Cost_Measures.subsets/Unit Sale Price.json"
+	]
+}
