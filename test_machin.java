@@ -4,10 +4,10 @@
 public class test_machin {
 
     public static void main(String[] args) {
-        machin();
+        System.out.println(machin(4));
     }
 
-    public static void machin() {
-        System.out.println("Hello World!");
+    public static int machin(int n) {
+        return (n+2);
     }
 }
