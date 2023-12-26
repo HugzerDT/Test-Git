@@ -89,5 +89,5 @@
 	],
 	"SuppressEmptyColumns":false,
 	"SuppressEmptyRows":false,
-	"FormatString":""
+	"FormatString":"0.00"
 }
