@@ -1,2 +1,0 @@
-['Unit Sale Price'] = S: 'SalesPlanToPriceandCost';
-[] = S:IF (ISLEAF=1,'SalesPlanToSalesPlanXLS', 'SalesPlanToSalesPlanXLS');
