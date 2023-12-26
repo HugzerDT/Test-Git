@@ -1,0 +1,41 @@
+{
+	"@type":"MDXView",
+	"Name":"Univ_Report_Test",
+	"MDX@Code.link":"Univ_Report_Test.mdx",
+	"Meta" : 
+	{
+		"Aliases" : 
+		{
+			"[Products].[Products]" : "MEMBER_NAME",
+			"[Versions].[Versions]" : "MEMBER_NAME"
+		},
+		"ContextSets" : 
+		{
+			"[Channels].[Channels]" : 
+			{
+				"Expression" : "{{[Channels].[Channels].DEFAULTMEMBER,[Channels].[Channels].DEFAULTMEMBER.CHILDREN}}"
+			},
+			"[Sales_Plan_Measures].[Sales_Plan_Measures]" : 
+			{
+				"Expression" : "{[Sales_Plan_Measures].DEFAULTMEMBER}"
+			},
+			"[Subsidiaries].[Subsidiaries]" : 
+			{
+				"Expression" : "{[Subsidiaries].DEFAULTMEMBER}"
+			},
+			"[Versions].[Versions]" : 
+			{
+				"Expression" : "{{[Versions].[Versions].Levels(0).MEMBERS}}"
+			}
+		},
+		"ExpandAboves" : 
+		{
+			"[Channels].[Channels]" : false,
+			"[Months].[Months]" : false,
+			"[Products].[Products]" : false,
+			"[Sales_Plan_Measures].[Sales_Plan_Measures]" : false,
+			"[Subsidiaries].[Subsidiaries]" : false,
+			"[Versions].[Versions]" : false
+		}
+	}
+}

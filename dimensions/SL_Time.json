@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"SL_Time",
+	"Hierarchies@Code.links":
+	[
+		"SL_Time.hierarchies/SL_Time.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('SL_Time')/Hierarchies('SL_Time')"
+	}
+}

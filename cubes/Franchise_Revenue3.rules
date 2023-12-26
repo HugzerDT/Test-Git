@@ -1,0 +1,5 @@
+SKIPCHECK;
+['Prior Period Ending'] = N: DB( 'Franchise_Revenue3', !Subsidiaries, DB( 'zTimeNavigation', !SL_Time, 'Prior_Period'), !Versions, 'Current Period');
+
+FEEDERS;
+['Current Period']=>DB('Franchise_Revenue3', !Subsidiaries, DB('zTime_Navigation', !SL_Time, 'Next_Period'), !Versions, 'Prior Period Ending');

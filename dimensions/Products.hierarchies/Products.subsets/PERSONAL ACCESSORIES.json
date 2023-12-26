@@ -1,0 +1,22 @@
+{
+	"@type":"Subset",
+	"Name":"PERSONAL ACCESSORIES",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('PERSONAL ACCESSORIES')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('Eyewear')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('Knives')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('Navigation')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('Watches')"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"@type":"Cube",
+	"Name":"zParam",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('zParam_Config')"
+		},
+		{
+			"@id":"Dimensions('zParam_Measure')"
+		}
+	],
+	"Views@Code.links":[]
+}

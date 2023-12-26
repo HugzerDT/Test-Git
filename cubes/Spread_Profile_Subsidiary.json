@@ -1,0 +1,14 @@
+{
+	"@type":"Cube",
+	"Name":"Spread_Profile_Subsidiary",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Subsidiaries')"
+		},
+		{
+			"@id":"Dimensions('SpreadMethod')"
+		}
+	],
+	"Views@Code.links":[]
+}

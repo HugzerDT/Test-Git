@@ -1,0 +1,7 @@
+['Unit Sale Price'] = N: 1; C: 20;
+['Comment'] = S: IF(['Unit Sale Price'] > 5, 'Chocolat', 'Bonbon');
+
+# ['Q1', 'Unit Sale Price'] = 7;
+# ['Unit Sale Price'] = N: 1; C:20 ;
+# ['Q1'] = STET;
+# ['Comment'] = S: IF(['Unit Sale Price'] > 5, 'Summer', 'Winter');

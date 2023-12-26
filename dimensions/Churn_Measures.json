@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"Churn_Measures",
+	"Hierarchies@Code.links":
+	[
+		"Churn_Measures.hierarchies/Churn_Measures.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Churn_Measures')/Hierarchies('Churn_Measures')"
+	}
+}
