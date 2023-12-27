@@ -1,0 +1,92 @@
+#region Prolog
+
+## -- Déclaration des noms de variable source et cible
+vsCube = 'Sales_Plan';
+vsView = GetProcessName() | '_Source';
+vsSubset = GetProcessName() | '_Source';
+
+vcCube = 'Sales_Plan';
+vcView = GetProcessName() | '_Cible';
+vcSubset = GetProcessName() | '_Cible';
+
+vTemp = 1;
+
+vOldLogging = CubeGetLogChanges( vcCube );
+CubeSetLogChanges( vcCube, 0);
+
+## -- Travail sur la source ----------------------------
+if( ViewExists( vsCube, vsView) = 1);
+   ViewDestroy( vsCube, vsView );
+endif;
+ViewCreate( vsCube, vsView, vTemp);
+
+## -- Subsets par dimension
+vDim = 'Months';
+if( SubsetExists( vDim, vsSubset ) = 1);
+   SubsetDestroy(  vDim, vsSubset );
+endif;
+SubsetCreate(vDim, vsSubset, vTemp);
+SubsetElementInsert( vDim, vsSubset, pTargetMonth, 1);
+ViewSubsetAssign( vsCube, vsView, vDim, vsSubset);
+
+vDim = 'Versions';
+if( SubsetExists( vDim, vsSubset ) = 1);
+   SubsetDestroy(  vDim, vsSubset );
+endif;
+SubsetCreate(vDim, vsSubset, vTemp);
+SubsetElementInsert( vDim, vsSubset, pVersionSource, 1);
+ViewSubsetAssign( vsCube, vsView, vDim, vsSubset);
+
+## - 3 conditions sur conso et règles
+ViewExtractSkipZeroesSet(vsCube, vsView, 1);
+ViewExtractSkipCalcsSet( vsCube, vsView, 1);
+ViewExtractSkipRuleValuesSet( vsCube, vsView, 0);
+
+## - définition réelle de la source
+DataSourceType = 'View';
+DatasourceNameForClient = vsCube;
+DatasourceNameForServer = vsCube;
+DatasourceCubeview = vsView;
+
+## -- Travail sur la cible ----------------------------
+if( ViewExists( vcCube, vcView) = 1);
+   ViewDestroy( vcCube, vcView );
+endif;
+ViewCreate( vcCube, vcView, vTemp);
+
+## -- Subsets par dimension
+vDim = 'Versions';
+if( SubsetExists( vDim, vcSubset ) = 1);
+   SubsetDestroy(  vDim, vcSubset );
+endif;
+SubsetCreate(vDim, vcSubset, vTemp);
+SubsetElementInsert( vDim, vcSubset, pVersionTarget, 1);
+ViewSubsetAssign( vcCube, vcView, vDim, vcSubset);
+
+vDim = 'Months';
+if( SubsetExists( vDim, vcSubset ) = 1);
+   SubsetDestroy(  vDim, vcSubset );
+endif;
+SubsetCreate(vDim, vcSubset, vTemp);
+SubsetElementInsert( vDim, vcSubset, pTargetMonth, 1);
+ViewSubsetAssign( vcCube, vcView, vDim, vcSubset);
+
+## -- Purge
+ViewZeroOut( vcCube, vcView);
+
+#endregion
+#region Metadata
+
+#endregion
+#region Data
+If(CellIsUpdateable(vcCube, vSubsidiaries,vChannels,vProducts,pTargetMonth,pVersionTarget,vMeasures) = 1);
+  CellPutN(vValue, vcCube, vSubsidiaries,vChannels,vProducts,pTargetMonth,pVersionTarget,vMeasures );
+endif;
+
+
+
+#endregion
+#region Epilog
+## -- Rétablissement des logs dans le cube cible
+CubeSetLogChanges( vcCube, vOldLogging);
+#endregion

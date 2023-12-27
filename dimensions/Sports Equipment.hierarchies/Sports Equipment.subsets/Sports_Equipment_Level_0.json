@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Sports_Equipment_Level_0",
+	"Alias":"MEMBER_NAME",
+	"Expression":"{{TM1FILTERBYLEVEL(TM1SUBSETALL([Sports Equipment].[Sports Equipment]), 0)}}"
+}
