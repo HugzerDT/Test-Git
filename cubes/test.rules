@@ -1,0 +1,3 @@
+SKIPCHECK;
+['Sleeping Bags','Jan'] = N: ['Sleeping Bags','Feb']*['Sleeping Bags','Mar'];
+

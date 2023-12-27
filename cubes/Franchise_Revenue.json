@@ -1,0 +1,18 @@
+{
+	"@type":"Cube",
+	"Name":"Franchise_Revenue",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Subsidiaries')"
+		},
+		{
+			"@id":"Dimensions('Months')"
+		},
+		{
+			"@id":"Dimensions('Versions')"
+		}
+	],
+	"Rules@Code.link":"Franchise_Revenue.rules",
+	"Views@Code.links":[]
+}

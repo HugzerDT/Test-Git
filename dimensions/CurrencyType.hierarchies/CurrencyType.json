@@ -1,0 +1,24 @@
+{
+	"@type":"Hierarchy",
+	"Name":"CurrencyType",
+	"Elements":
+	[
+		{
+			"Name":"Reporting",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Yearly Rate",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Spot Rate",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Monthly Rate",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

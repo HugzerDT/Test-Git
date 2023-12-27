@@ -1,0 +1,32 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Time_Navigation",
+	"Elements":
+	[
+		{
+			"Name":"Prior_Period",
+			"Type":"String"
+		},
+		{
+			"Name":"Next_Period",
+			"Type":"String"
+		},
+		{
+			"Name":"Same_Period_LY",
+			"Type":"String"
+		},
+		{
+			"Name":"Prior_Period_LY",
+			"Type":"String"
+		},
+		{
+			"Name":"Same_Period_NY",
+			"Type":"String"
+		},
+		{
+			"Name":"Next_Period_NY",
+			"Type":"String"
+		}
+	],
+	"Subsets@Code.links":[]
+}

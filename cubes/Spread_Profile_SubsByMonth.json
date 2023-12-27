@@ -1,0 +1,18 @@
+{
+	"@type":"Cube",
+	"Name":"Spread_Profile_SubsByMonth",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Months')"
+		},
+		{
+			"@id":"Dimensions('Subsidiaries')"
+		},
+		{
+			"@id":"Dimensions('SpreadMethod')"
+		}
+	],
+	"Rules@Code.link":"Spread_Profile_SubsByMonth.rules",
+	"Views@Code.links":[]
+}

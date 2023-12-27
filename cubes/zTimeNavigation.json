@@ -1,0 +1,14 @@
+{
+	"@type":"Cube",
+	"Name":"zTimeNavigation",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('SL_Time')"
+		},
+		{
+			"@id":"Dimensions('Time_Navigation')"
+		}
+	],
+	"Views@Code.links":[]
+}

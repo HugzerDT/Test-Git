@@ -1,0 +1,24 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Income_Statement_Measures",
+	"Elements":
+	[
+		{
+			"Name":"Amount",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Reporting USD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Reporting EUR",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Reporting JPY",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

@@ -1,0 +1,20 @@
+{
+	"@type":"Cube",
+	"Name":"zRate",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Months')"
+		},
+		{
+			"@id":"Dimensions('CurrencyType')"
+		},
+		{
+			"@id":"Dimensions('Currency')"
+		},
+		{
+			"@id":"Dimensions('CurrencyConvertTo')"
+		}
+	],
+	"Views@Code.links":[]
+}
