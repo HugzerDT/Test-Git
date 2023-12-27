@@ -1,0 +1,32 @@
+{
+	"@type":"Hierarchy",
+	"Name":"FastFood",
+	"Elements":
+	[
+		{
+			"Name":"KFC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mcdo",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Kebab",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Burger King",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Pizza",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tacos",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

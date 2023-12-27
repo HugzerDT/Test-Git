@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"Months_Level_1",
-	"Alias":"MEMBER_NAME",
-	"Expression":"{{[Months].[Months].levels(1).MEMBERS}}"
-}

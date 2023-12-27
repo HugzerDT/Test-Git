@@ -1,0 +1,14 @@
+{
+	"@type":"Dimension",
+	"Name":"FastFood",
+	"AllLeavesHierarchyName":"Leaves",
+	"Hierarchies@Code.links":
+	[
+		"FastFood.hierarchies/FastFood.json",
+		"FastFood.hierarchies/Type.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('FastFood')/Hierarchies('FastFood')"
+	}
+}
