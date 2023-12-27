@@ -28,5 +28,8 @@
 			"Type":"Numeric"
 		}
 	],
-	"Subsets@Code.links":[]
+	"Subsets@Code.links":
+	[
+		"FastFood.subsets/Chaine.json"
+	]
 }

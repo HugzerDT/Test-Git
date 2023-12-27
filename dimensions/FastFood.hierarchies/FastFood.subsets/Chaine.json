@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Chaine",
+	"Alias":"MEMBER_NAME",
+	"Expression":"{EXCEPT([FastFood].[FastFood].MEMBERS , {[FastFood].[FastFood].[Kebab],[FastFood].[FastFood].[Pizza]})}"
+}
