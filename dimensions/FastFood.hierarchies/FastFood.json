@@ -18,6 +18,10 @@
 		{
 			"Name":"Burger King",
 			"Type":"Numeric"
+		},
+		{
+			"Name":"Pizza",
+			"Type":"Numeric"
 		}
 	],
 	"Subsets@Code.links":[]
