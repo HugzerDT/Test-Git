@@ -1,0 +1,14 @@
+{
+	"@type":"Cube",
+	"Name":"Sneakers_Months",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Months')"
+		},
+		{
+			"@id":"Dimensions('Sneakers')"
+		}
+	],
+	"Views@Code.links":[]
+}

@@ -1,5 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"Default",
-	"Expression":"{EXCEPT([Expenses].[Expenses].MEMBERS , {[Expenses].[Expenses].[Pension Plan %],[Expenses].[Expenses].[Social Security %],[Expenses].[Expenses].[Health Insurance %]})}"
-}
