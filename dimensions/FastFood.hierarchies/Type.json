@@ -1,0 +1,87 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Type",
+	"Elements":
+	[
+		{
+			"Name":"Pizza",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Burger King",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Autre",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Kebab",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Burger",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Mcdo",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Chicken",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"KFC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"All Type",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Autre",
+			"ComponentName":"Kebab",
+			"Weight":1
+		},
+		{
+			"ParentName":"Autre",
+			"ComponentName":"Pizza",
+			"Weight":1
+		},
+		{
+			"ParentName":"Burger",
+			"ComponentName":"Mcdo",
+			"Weight":1
+		},
+		{
+			"ParentName":"Burger",
+			"ComponentName":"Burger King",
+			"Weight":1
+		},
+		{
+			"ParentName":"Chicken",
+			"ComponentName":"KFC",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Type",
+			"ComponentName":"Chicken",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Type",
+			"ComponentName":"Burger",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Type",
+			"ComponentName":"Autre",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}
