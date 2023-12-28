@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"Income_Statement_Measures",
+	"Hierarchies@Code.links":
+	[
+		"Income_Statement_Measures.hierarchies/Income_Statement_Measures.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Income_Statement_Measures')/Hierarchies('Income_Statement_Measures')"
+	}
+}

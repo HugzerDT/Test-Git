@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"Expense_Measures",
+	"Hierarchies@Code.links":
+	[
+		"Expense_Measures.hierarchies/Expense_Measures.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Expense_Measures')/Hierarchies('Expense_Measures')"
+	}
+}

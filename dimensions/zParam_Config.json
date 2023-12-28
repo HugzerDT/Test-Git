@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"zParam_Config",
+	"Hierarchies@Code.links":
+	[
+		"zParam_Config.hierarchies/zParam_Config.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('zParam_Config')/Hierarchies('zParam_Config')"
+	}
+}

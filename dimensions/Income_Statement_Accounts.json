@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"Income_Statement_Accounts",
+	"Hierarchies@Code.links":
+	[
+		"Income_Statement_Accounts.hierarchies/Income_Statement_Accounts.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Income_Statement_Accounts')/Hierarchies('Income_Statement_Accounts')"
+	}
+}

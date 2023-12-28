@@ -1,0 +1,28 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Commission_Measures",
+	"Elements":
+	[
+		{
+			"Name":"Gross Sales Revenue",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Commission",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Commission%",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Commission_hold",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Commission_count",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

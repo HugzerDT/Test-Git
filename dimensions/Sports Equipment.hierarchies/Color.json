@@ -1,0 +1,312 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Color",
+	"Elements":
+	[
+		{
+			"Name":"Grey",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Nike Grey",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nike Red",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nike Blue",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Adidas NBA",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nike Seoul",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Green",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Air Jordan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Adidas Motif 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Adidas Motif 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nike Motif 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nike Motif 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Large",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Regular",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Slim",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Puma truc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nike",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"LBJ 15",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Pink",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"KD 6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Blue",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Air Jordan 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Adidas Machin Chouette",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Red",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Asics Model 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Orange",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Basic Fit",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Fitness Park 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Fitness Park 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"White",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Hiking test 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Black",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Hiking test 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"All Color",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Grey",
+			"ComponentName":"Nike Grey",
+			"Weight":1
+		},
+		{
+			"ParentName":"Green",
+			"ComponentName":"Air Jordan",
+			"Weight":1
+		},
+		{
+			"ParentName":"Pink",
+			"ComponentName":"KD 6",
+			"Weight":1
+		},
+		{
+			"ParentName":"Blue",
+			"ComponentName":"Air Jordan 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Blue",
+			"ComponentName":"Nike Motif 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Blue",
+			"ComponentName":"Adidas Motif 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Blue",
+			"ComponentName":"Nike Blue",
+			"Weight":1
+		},
+		{
+			"ParentName":"Red",
+			"ComponentName":"Asics Model 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Red",
+			"ComponentName":"Adidas Machin Chouette",
+			"Weight":1
+		},
+		{
+			"ParentName":"Red",
+			"ComponentName":"LBJ 15",
+			"Weight":1
+		},
+		{
+			"ParentName":"Red",
+			"ComponentName":"Adidas Motif 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Red",
+			"ComponentName":"Nike Red",
+			"Weight":1
+		},
+		{
+			"ParentName":"Orange",
+			"ComponentName":"Basic Fit",
+			"Weight":1
+		},
+		{
+			"ParentName":"White",
+			"ComponentName":"Hiking test 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"White",
+			"ComponentName":"Puma truc",
+			"Weight":1
+		},
+		{
+			"ParentName":"White",
+			"ComponentName":"Nike Motif 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"White",
+			"ComponentName":"Adidas NBA",
+			"Weight":1
+		},
+		{
+			"ParentName":"Black",
+			"ComponentName":"Hiking test 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Black",
+			"ComponentName":"Fitness Park 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Black",
+			"ComponentName":"Fitness Park 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Black",
+			"ComponentName":"Nike",
+			"Weight":1
+		},
+		{
+			"ParentName":"Black",
+			"ComponentName":"Slim",
+			"Weight":1
+		},
+		{
+			"ParentName":"Black",
+			"ComponentName":"Regular",
+			"Weight":1
+		},
+		{
+			"ParentName":"Black",
+			"ComponentName":"Large",
+			"Weight":1
+		},
+		{
+			"ParentName":"Black",
+			"ComponentName":"Nike Seoul",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Color",
+			"ComponentName":"Black",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Color",
+			"ComponentName":"White",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Color",
+			"ComponentName":"Orange",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Color",
+			"ComponentName":"Red",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Color",
+			"ComponentName":"Blue",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Color",
+			"ComponentName":"Pink",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Color",
+			"ComponentName":"Green",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Color",
+			"ComponentName":"Grey",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

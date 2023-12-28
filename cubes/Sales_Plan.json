@@ -1,0 +1,36 @@
+{
+	"@type":"Cube",
+	"Name":"Sales_Plan",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Subsidiaries')"
+		},
+		{
+			"@id":"Dimensions('Channels')"
+		},
+		{
+			"@id":"Dimensions('Products')"
+		},
+		{
+			"@id":"Dimensions('Months')"
+		},
+		{
+			"@id":"Dimensions('Versions')"
+		},
+		{
+			"@id":"Dimensions('Sales_Plan_Measures')"
+		}
+	],
+	"Rules@Code.link":"Sales_Plan.rules",
+	"DrillthroughRules@Code.link":"Sales_Plan.drillthrough.rules",
+	"Views@Code.links":
+	[
+		"Sales_Plan.views/Feuil3.json",
+		"Sales_Plan.views/SalesPlanDefault.json",
+		"Sales_Plan.views/zDeleteAll.json",
+		"Sales_Plan.views/zExport view.json",
+		"Sales_Plan.views/ztrf_MonthVersion.json",
+		"Sales_Plan.views/Univ_Report_Test.json"
+	]
+}

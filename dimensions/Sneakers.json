@@ -1,0 +1,16 @@
+{
+	"@type":"Dimension",
+	"Name":"Sneakers",
+	"AllLeavesHierarchyName":"Leaves",
+	"Hierarchies@Code.links":
+	[
+		"Sneakers.hierarchies/Sneakers.json",
+		"Sneakers.hierarchies/Color.json",
+		"Sneakers.hierarchies/Nom Produit.json",
+		"Sneakers.hierarchies/test.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Sneakers')/Hierarchies('Sneakers')"
+	}
+}

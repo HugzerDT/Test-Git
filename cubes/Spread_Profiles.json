@@ -1,0 +1,14 @@
+{
+	"@type":"Cube",
+	"Name":"Spread_Profiles",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Months')"
+		},
+		{
+			"@id":"Dimensions('SpreadMethod')"
+		}
+	],
+	"Views@Code.links":[]
+}

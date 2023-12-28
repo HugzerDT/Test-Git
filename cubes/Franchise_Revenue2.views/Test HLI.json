@@ -1,0 +1,27 @@
+{
+	"@type":"MDXView",
+	"Name":"Test HLI",
+	"MDX@Code.link":"Test HLI.mdx",
+	"Meta" : 
+	{
+		"Aliases" : {},
+		"ContextSets" : 
+		{
+			"[Versions].[Versions]" : 
+			{
+				"Expression" : "{[Versions].[Versions].MEMBERS}"
+			},
+			"[Years].[Years]" : 
+			{
+				"Expression" : "{[Years].[Years].MEMBERS}"
+			}
+		},
+		"ExpandAboves" : 
+		{
+			"[Months].[Months]" : false,
+			"[Subsidiaries].[Subsidiaries]" : false,
+			"[Versions].[Versions]" : false,
+			"[Years].[Years]" : false
+		}
+	}
+}

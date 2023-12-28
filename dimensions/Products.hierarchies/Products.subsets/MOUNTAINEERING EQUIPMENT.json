@@ -1,0 +1,19 @@
+{
+	"@type":"Subset",
+	"Name":"MOUNTAINEERING EQUIPMENT",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('MOUNTAINEERING EQUIPMENT')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('Rope')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('Safety')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('Tools')"
+		}
+	]
+}

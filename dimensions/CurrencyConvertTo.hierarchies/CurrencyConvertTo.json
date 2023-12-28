@@ -1,0 +1,36 @@
+{
+	"@type":"Hierarchy",
+	"Name":"CurrencyConvertTo",
+	"Elements":
+	[
+		{
+			"Name":"BRL",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GBP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"EUR",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"JPY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SEK",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USD",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

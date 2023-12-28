@@ -1,0 +1,19 @@
+{
+	"@type":"Subset",
+	"Name":"GOLF EQUIPMENT",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('GOLF EQUIPMENT')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('Irons')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('Putters')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('Woods')"
+		}
+	]
+}

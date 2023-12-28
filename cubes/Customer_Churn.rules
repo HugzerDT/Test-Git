@@ -1,0 +1,19 @@
+SKIPCHECK;
+['Customers at Start of Period', {'Jan','Q1','Total Year'}]=['Existing Customers (Pd1)','Jan'];
+['Attrition (Numbers)'] =N:['Customers at Start of Period']*['Attrition Rate (%)'];
+['CUSTOMERS EXPECTED TO PURCHASE SPECIAL OFFER'] =N:(['Customers at Start of Period']*.9);
+['PROJECTED REVENUE']=N:['CUSTOMERS EXPECTED TO PURCHASE SPECIAL OFFER']*['Average Purchase $ per Customer'];
+
+['Customers at Start of Period']= DB('Customer_Churn', ATTRS('Months', !Months, 'Previous'), 'PROJECTED CUSTOMERS AT END OF PERIOD');
+
+['PROJECTED CUSTOMERS AT END OF PERIOD','Q1'] = C:['Mar'];
+['PROJECTED CUSTOMERS AT END OF PERIOD','Q2'] = C:['Jun'];
+['PROJECTED CUSTOMERS AT END OF PERIOD','Q3'] = C:['Sep'];
+['PROJECTED CUSTOMERS AT END OF PERIOD',{'Q4','Total Year'}] = C:['Dec'];
+
+FEEDERS;
+['Existing customers (Pd1)','Jan']=>['Customers at Start of Period','Jan'];
+['Attrition Rate (%)']=>['Attrition (Numbers)'];
+['Customers at Start of Period']=>['CUSTOMERS EXPECTED TO PURCHASE SPECIAL OFFER'];
+['Average Purchase $ per Customer']=>['PROJECTED REVENUE'];
+

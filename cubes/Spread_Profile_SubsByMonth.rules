@@ -1,0 +1,1 @@
+['Subsidiary']=DB('Spread_Profile_Subsidiary', !Subsidiaries,'Subsidiary')*DB('Spread_Profiles', !Months, '4 4 5');

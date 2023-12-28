@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"UnevenSubsidiary",
+	"Hierarchies@Code.links":
+	[
+		"UnevenSubsidiary.hierarchies/UnevenSubsidiary.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('UnevenSubsidiary')/Hierarchies('UnevenSubsidiary')"
+	}
+}

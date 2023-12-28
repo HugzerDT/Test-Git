@@ -1,0 +1,28 @@
+{
+	"@type":"Hierarchy",
+	"Name":"SpreadMethod",
+	"Elements":
+	[
+		{
+			"Name":"Flat",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Quarterly",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"4 4 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Business",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Subsidiary",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}
